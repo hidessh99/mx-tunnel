@@ -34,14 +34,14 @@ cat > /etc/v2ray/$user-tls.json <<-EOF
       {
       "v": "2",
       "ps": "${user}",
-      "add": "${domain}",
+      "add": ".com.mdxstore.my.id}",
       "port": "443",
       "id": "${uuid}",
       "aid": "0",
       "net": "ws",
       "path": "/MDXCloud",
       "type": "none",
-      "host": "",
+      "host": "${domaim}",
       "tls": "tls"
 }
 EOF
@@ -50,7 +50,7 @@ cat > /etc/v2ray/$user-none.json <<-EOF
       {
       "v": "2",
       "ps": "${user}",
-      "add": "member.mdxcloud.net",
+      "add": ".com.mdxstore.my.id",
       "port": "80",
       "id": "${uuid}",
       "aid": "0",
