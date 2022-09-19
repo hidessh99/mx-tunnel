@@ -34,8 +34,8 @@ cat > /etc/v2ray/$user-tls.json <<-EOF
       {
       "v": "2",
       "ps": "${user}",
-      "add": "vip.mdxstore.my.id",
-      "port": "443",
+      "add": ".mdxstore.my.id",
+      "port": "884",
       "id": "${uuid}",
       "aid": "0",
       "net": "ws",
@@ -51,7 +51,7 @@ cat > /etc/v2ray/$user-none.json <<-EOF
       "v": "2",
       "ps": "${user}",
       "add": "vip.mdxstore.my.id",
-      "port": "80",
+      "port": "880",
       "id": "${uuid}",
       "aid": "0",
       "net": "ws",
@@ -72,8 +72,8 @@ echo -e "==========-V2RAY/VMESS-=========="
 echo -e "Remarks        : ${user}"
 echo -e "Domain         : ${domain}"
 echo -e "Server IP      : $PUBLIC_IP"
-echo -e "port TLS       : 443"
-echo -e "port none TLS  : 80"
+echo -e "port TLS       : 884"
+echo -e "port none TLS  : 880"
 echo -e "id             : ${uuid}"
 echo -e "alterId        : 0"
 echo -e "Security       : auto"
