@@ -42,7 +42,7 @@ cat > /etc/v2ray/config.json <<-EOF
   },
   "inbounds": [
     {
-      "port": 443,
+      "port": 884,
       "protocol": "vmess",
       "settings": {
         "clients": [
@@ -140,7 +140,7 @@ cat > /etc/v2ray/none.json <<-EOF
   },
   "inbounds": [
     {
-      "port": 80,
+      "port": 880,
       "protocol": "vmess",
       "settings": {
         "clients": [
@@ -229,7 +229,7 @@ cat > /etc/v2ray/vless.json <<-EOF
   },
   "inbounds": [
     {
-      "port": 2083,
+      "port": 443,
       "protocol": "vless",
       "settings": {
         "clients": [
@@ -326,7 +326,7 @@ cat > /etc/v2ray/vnone.json <<-EOF
   },
   "inbounds": [
     {
-      "port": 8880,
+      "port": 80,
       "protocol": "vless",
       "settings": {
         "clients": [
