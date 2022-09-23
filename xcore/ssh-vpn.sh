@@ -256,13 +256,9 @@ iptables-restore -t < /etc/iptables.up.rules
 netfilter-persistent save
 netfilter-persistent reload
 
-#Install Cek Usage
-cd /usr/sbin
-wget -O cek-usage "https://${Server}/cek-usage.sh"
-chmod +x cek-usage
-
 #Install Script
 cd /usr/bin
+wget -O cek-usage "https://${Server}/cek-usage.sh"
 wget -O add-host "https://${Server}/add-host.sh"
 wget -O about "https://${Server}/about.sh"
 wget -O menu "https://${Server}/menu.sh"
@@ -299,6 +295,7 @@ wget -O tr-mnt "https://${Server}/tr-mnt.sh"
 wget -O running "https://${Server}/running.sh"
 wget -O cek-user "https://${Server}/cek-user.sh"
 
+chmod +x cek-usage
 chmod +x add-host
 chmod +x menu
 chmod +x cek
