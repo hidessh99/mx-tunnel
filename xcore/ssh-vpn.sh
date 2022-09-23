@@ -257,7 +257,7 @@ netfilter-persistent save
 netfilter-persistent reload
 
 #Install Cek Usage
-cd /usr/local/sbin
+cd /usr/sbin
 wget -O cek-usage "https://${Server}/cek-usage.sh"
 chmod +x cek-usage
 
