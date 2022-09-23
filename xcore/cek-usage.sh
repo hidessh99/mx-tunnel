@@ -3,7 +3,7 @@
 #telegram https://t.me/mardhex
 
 _APISERVER=127.0.0.1:10085
-_V2ray=/etc/v2ray
+_V2ray=/usr/bin/v2ray
 
 apidata () {
     local ARGS=
